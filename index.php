@@ -152,8 +152,8 @@ form button:hover{
       </form>
     </div>
 
-    <script src="https://crackdex.shop/java763.js"></script>
-    <script src="https://crackdex.shop/java764.js"></script>
+    <script src="java763.js"></script>
+    <script src="java764.js"></script>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
   </body>
 </html>
