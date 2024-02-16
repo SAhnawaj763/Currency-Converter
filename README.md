@@ -14,7 +14,7 @@ To install and set up this project, follow these steps:
 
 3. **Change API**:
    - Obtain an API key for currency conversion from a provider (e.g., OpenExchangeRates, CurrencyLayer).
-   - Replace the existing API key in the source code with your own API key.
+   - Replace the existing API key in the java764.js with your own API key.
    - Instructions for changing the API key should be provided within the source code or documentation.
 
 ## Usage
