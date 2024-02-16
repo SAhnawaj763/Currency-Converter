@@ -51,7 +51,7 @@ function getExchangeRate(){
         amountVal = 1;
     }
     exchangeRateTxt.innerText = "Getting exchange rate...";
-    let url = `https://v6.exchangerate-api.com/v6/your_Api/latest/${fromCurrency.value}`; //Chnage Api Key
+    let url = `https://v6.exchangerate-api.com/v6/your_Api/latest/${fromCurrency.value}`; // Replace 'your_Api' with your actual API key Go to exchangerate-api.com And Create Api Free of cost 
     fetch(url).then(response => response.json()).then(result =>{
         let exchangeRate = result.conversion_rates[toCurrency.value];
         let totalExRate = (amountVal * exchangeRate).toFixed(2);
